@@ -19,14 +19,12 @@ public class ExamForWhileStars {
 				case 2:
 					new TriangleStars().triangle();
 					break;
-			    /**
 				case 3:
-					new SumAndAvg().sumAvg();
+					new IsoscelesTriangleStars().pyramid();
 					break;
 				case 4:
-					new GuGuDan().dan();
+					new DiamondStars().diamond();
 					break;
-				**/
 				case 5:
 					check="end";
 					break;
