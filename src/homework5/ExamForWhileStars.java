@@ -16,21 +16,18 @@ public class ExamForWhileStars {
 				case 1:
 					new RectangleStars().Square();
 					break;
-				/**
 				case 2:
-					new MaxAndMin().checkNum();
+					new TriangleStars().triangle();
 					break;
+			    /**
 				case 3:
 					new SumAndAvg().sumAvg();
 					break;
 				case 4:
 					new GuGuDan().dan();
 					break;
-				case 5:
-					new GuGuDan2().dan2();
-					break;
 				**/
-				case 6:
+				case 5:
 					check="end";
 					break;
 				default:
