@@ -5,7 +5,7 @@ import java.util.*;
 public class IsoscelesTriangleStars {
 	public void pyramid(){
 		Scanner s = new Scanner(System.in);
-		System.out.print("ÀÌµîº¯ »ï°¢Çü ³ôÀÌÀÔ·Â:");
+		System.out.print("ì´ë“±ë³€ì‚¼ê°í˜• ë†’ì´ì…ë ¥:");
 		
 		int height = s.nextInt();
 		int cnt = 1;

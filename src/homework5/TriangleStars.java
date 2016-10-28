@@ -6,7 +6,7 @@ public class TriangleStars {
 	public void triangle(){
 		Scanner s = new Scanner(System.in);
 		
-		System.out.print("Á÷»ï°¢ÇüÀÇ ¿ŞÂÊ¿©¹é°ú ³ôÀÌÀÔ·Â:");
+		System.out.print("ì§ê°ì‚¼ê°í˜•ì˜ ì™¼ìª½ì—¬ë°±ê³¼ ë†’ì´ì…ë ¥:");
 		int blank = s.nextInt();
 		int height = s.nextInt();
 		

@@ -10,7 +10,7 @@ public class ExamForWhileStars {
 		try{
 			while(!check.equals("end")){
 				mainMenu();
-				System.out.print("¿øÇÏ´Â ¸Ş´º´Â:");
+				System.out.print("ì›í•˜ëŠ” ë©”ë‰´ëŠ”:");
 				int menu = s.nextInt();
 				switch(menu){
 				case 1:
@@ -29,7 +29,7 @@ public class ExamForWhileStars {
 					check="end";
 					break;
 				default:
-					System.out.print("Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+					System.out.print("ì˜ëª» ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 					continue;
 				}//switch
 			}//while
@@ -37,15 +37,15 @@ public class ExamForWhileStars {
 		finally{
 			if(s!=null)
 				s.close();
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 		}
 	}
 	
 	static void mainMenu(){
-		System.out.println("1.Á¤»ç°¢Çü º°Âï±â");
-		System.out.println("2.Á÷°¢»ï°¢ º°Âï±â");
-		System.out.println("3.ÀÌµîº¯ »ï°¢Çü º°Âï±â");
-		System.out.println("4.´ÙÀÌ¾Æ¸óµå º°Âï±â ");
-		System.out.println("5.Á¾·áÇÏ±â ");
+		System.out.println("1.ì •ì‚¬ê°í˜• ë³„ì°ê¸°");
+		System.out.println("2.ì§ê°ì‚¼ê° ë³„ì°ê¸°");
+		System.out.println("3.ì´ë“±ë³€ ì‚¼ê°í˜• ë³„ì°ê¸°");
+		System.out.println("4.ë‹¤ì´ì•„ëª¬ë“œ ë³„ì°ê¸°");
+		System.out.println("5.ì¢…ë£Œí•˜ê¸°");
 	}
 }

@@ -6,7 +6,7 @@ public class RectangleStars {
 	public void Square(){
 		Scanner s = new Scanner(System.in);
 		
-		System.out.print("Á¤»ç°¢Çü Å©±âÀÔ·Â:");
+		System.out.print("ì •ì‚¬ê°í˜• í¬ê¸°ì…ë ¥:");
 		int size = s.nextInt();
 		
 		for(int i=0; i<size; i=i+2){
